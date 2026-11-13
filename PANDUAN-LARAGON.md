@@ -1,4 +1,4 @@
-# Panduan Menjalankan CatatSuara dengan Laragon
+# Panduan Menjalankan SoraFin dengan Laragon
 
 Panduan ini untuk Windows dan Laragon. Ikuti langkahnya dari atas ke bawah. Perintah terminal di bawah dijalankan dari folder proyek, kecuali jika disebutkan lain.
 
@@ -27,15 +27,15 @@ Jika PHP di terminal bukan versi PHP Laragon yang dipilih, buka terminal melalui
 Letakkan folder proyek sehingga struktur berikut tersedia:
 
 ```text
-C:\laragon\www\CatatSuara\artisan
+C:\laragon\www\SoraFin\artisan
 ```
 
 Jika belum memiliki salinan proyek, clone dari GitHub di PowerShell:
 
 ```powershell
 Set-Location C:\laragon\www
-git clone https://github.com/Fatinasy7/CatatSuara.git
-Set-Location C:\laragon\www\CatatSuara
+git clone https://github.com/Fatinasy7/CatatSuara.git SoraFin
+Set-Location C:\laragon\www\SoraFin
 ```
 
 Jika proyek sudah ada di lokasi lain, gunakan folder tersebut sebagai gantinya. Pastikan terminal berada di folder yang berisi file `artisan`.
@@ -71,7 +71,7 @@ if (-not (Test-Path .env)) { Copy-Item .env.example .env }
 Jika `.env` sudah ada, jangan menimpanya; buka file tersebut dan sesuaikan nilai dasar berikut:
 
 ```dotenv
-APP_NAME=CatatSuara
+APP_NAME=SoraFin
 APP_ENV=local
 APP_DEBUG=true
 APP_URL=http://127.0.0.1:8000

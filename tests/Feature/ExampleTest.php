@@ -10,10 +10,16 @@ class ExampleTest extends TestCase
     /**
      * A basic test example.
      */
-    public function test_the_application_returns_a_successful_response(): void
+    public function test_dashboard_renders_its_primary_navigation_and_sections(): void
     {
         $response = $this->get('/');
 
-        $response->assertStatus(200);
+        $response->assertOk()
+            ->assertSee('SoraFin')
+            ->assertSee('sorafin-logo.png')
+            ->assertSee('Suara kasir AI')
+            ->assertSee('Transaksi')
+            ->assertSee('Laporan SAK EMKM & KUR')
+            ->assertSee('Data tetap milik Anda');
     }
 }
