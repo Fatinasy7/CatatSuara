@@ -1,6 +1,6 @@
-# CatatSuara
+# SoraFin
 
-CatatSuara saat ini masih berupa kerangka Laravel. Halaman yang tersedia adalah halaman sambutan bawaan Laravel; fitur pencatatan suara dan autentikasi/login belum dibuat.
+SoraFin saat ini masih berupa kerangka Laravel. Halaman yang tersedia adalah halaman sambutan bawaan Laravel; fitur pencatatan suara dan autentikasi/login belum dibuat.
 
 ## Panduan
 

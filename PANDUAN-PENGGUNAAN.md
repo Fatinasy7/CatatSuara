@@ -1,4 +1,4 @@
-# Panduan Penggunaan CatatSuara
+# Panduan Penggunaan SoraFin
 
 ## Status aplikasi saat ini
 
@@ -29,6 +29,6 @@ Jangan gunakan kata sandi contoh ini untuk akun atau lingkungan yang berisi data
 
 1. Jalankan aplikasi sesuai [panduan instalasi Laragon](PANDUAN-LARAGON.md).
 2. Buka `http://127.0.0.1:8000` di browser.
-3. Halaman yang ditampilkan adalah halaman sambutan Laravel. Belum ada alur penggunaan CatatSuara lain yang dapat dilakukan.
+3. Halaman yang ditampilkan adalah halaman sambutan Laravel. Belum ada alur penggunaan SoraFin lain yang dapat dilakukan.
 
-Untuk menyediakan login dan fitur CatatSuara, aplikasi perlu dikembangkan lebih lanjut, termasuk menambahkan autentikasi, antarmuka, dan fungsi pencatatan suara. Jangan menganggap akun seeder sebagai bukti bahwa login sudah diimplementasikan.
+Untuk menyediakan login dan fitur SoraFin, aplikasi perlu dikembangkan lebih lanjut, termasuk menambahkan autentikasi, antarmuka, dan fungsi pencatatan suara. Jangan menganggap akun seeder sebagai bukti bahwa login sudah diimplementasikan.
